@@ -10,3 +10,20 @@ fs.readdir('.', (error, files) => {
         console.log(file);
     })
 })
+
+// Promessa
+
+const fsPromisse = require('node:fs/promises');
+
+fsPromisse.readdir('.').then(
+    files => {
+        files.forEach( element => {
+            console.log(element);
+        })
+    }
+)
+.catch(
+    error => {
+        console.log(error);
+    }
+)
