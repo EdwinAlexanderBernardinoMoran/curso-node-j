@@ -6,10 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git remote add origin https://github.com/EdwinAlexanderBernardinoMoran/curso-node-js.git"
-  },
   "keywords": [
     "curso",
     "node",
