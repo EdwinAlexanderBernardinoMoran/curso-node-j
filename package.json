@@ -1,0 +1,24 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "description": "El mejor curso de Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/EdwinAlexanderBernardinoMoran/curso-node-js.git"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "edwindev"
+  ],
+  "author": "Edwin Alexander Bernardino Moran",
+  "license": "MIT",
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  }
+}
